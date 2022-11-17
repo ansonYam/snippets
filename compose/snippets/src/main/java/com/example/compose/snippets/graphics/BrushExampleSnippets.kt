@@ -241,6 +241,7 @@ fun GraphicsBrushSizeRecreationExample() {
 @Preview
 @Composable
 fun GraphicsImageBrush() {
+    /*
     // [START android_compose_graphics_brush_image]
     val imageBrush = ShaderBrush(ImageShader(ImageBitmap.imageResource(id = R.drawable.dog)))
 
@@ -266,6 +267,7 @@ fun GraphicsImageBrush() {
         drawCircle(imageBrush)
     }, modifier = Modifier.size(200.dp))
     // [END android_compose_graphics_brush_image]
+    */
 }
 
 // [START android_compose_brush_custom_shader]
